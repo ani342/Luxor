@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book A Test Drive</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/testDrive.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="logo">
+        <div class="hamburger-container">
+            <i class="fa fa-bars hamburger-style" id="hamburger" onclick="openNav()" style="font-size:30px;cursor:pointer;color: white;"></i>
+        </div>
+        <a href="index.html" class="logo-url">LUXOR</a>
+    </div>
+    <!-- =========== -->
+    <div id="mySidenav" class="sidenav" style="display: none;">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="#">Corporate</a>
+        <a href="#">Sales</a>
+        <a href="service.html">Services</a>
+      </div>
+    <!-- =========== -->
+    <div class="navbar sticky-top">
+        <div class="navbar-left">
+            <div class="navbar-left-buttons">
+                <a href="index.html">HOME</a>
+            </div>
+            <div class="navbar-left-buttons">
+                <a href="#">CORPORATE</a>
+            </div>
+            <div class="navbar-left-buttons">
+                <a href="#">SALES</a>
+            </div>
+            <div class="navbar-left-buttons">
+                <a href="service.html">SERVICE</a>
+            </div>
+        </div>
+
+        <div class="navbar-right">
+            <div class="navbar-right-buttons">
+                <a href="#" class="">
+                    <img src="img/ico-social-20-x-20.png" width="20" height="20">
+                </a>
+            </div>
+            <div class="navbar-right-buttons">
+                <a href="#" class=""  data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="img/login.png">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header style-modal-header">
+                <h4 class="modal-title">SIGNUP</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>                </div>
+          
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="style-modal-body">
+                    <input type="tel" placeholder="Enter Your Phone Number" class="form-control phone-number">
+                </div>
+                <div class="style-modal-body">
+                    <input type="submit" value="Continue" class=" form-control continue-button">
+                </div>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer" style="display: block; text-align: center;">
+                <small>We will send you an OTP to verify your
+                    phone number/email</small>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" container test-drive">
+        <h2>Request A Test Drive</h2>
+    </div>
+    <div class="test-drive-form">
+        <form>
+            <div class="form-group container">
+                <label>Name*</label>
+                <input type="text" class="form-control" name="name" placeholder="Name">
+            </div>
+
+            <div class="form-group container">
+                <label>Email address*</label>
+                <input type="email" class="form-control" placeholder="Enter email">
+                <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+            </div>
+
+            <div class=" form-group container">
+                <label>Mobile*</label>
+                <input type="tel" class="form-control" placeholder="Mobile" maxlength="10">
+            </div>
+                
+            <div class="container form-group ">
+                <label>Model Interested in*</label>
+                <select name="model" class="form-control">
+                    <option>Model</option>
+                </select>
+            </div>
+
+            <div class="container form-group ">
+                <label>State*</label>
+                <select name="model" class="form-control">
+                    <option>State</option>
+                </select>
+            </div>
+
+            <div class="container form-group ">
+                <label>City*</label>
+                <select name="model" class="form-control">
+                    <option>City</option>
+                </select>
+            </div>
+
+            <div class="container form-group form-check">
+                <input type="checkbox" class="form-check-input" id="checkbox">
+                <label class="form-check-label">I accept the terms & conditions</label>
+            </div>
+
+            <div class="container form-group">
+                <button type="submit" value="Submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-top">
+            <div class="footer-top-object">
+                <a href="#">Download Brochure</a>
+            </div>
+            <div class="footer-top-object">
+                <a href="testDrive.html">Book a Test Drive</a>
+            </div>
+            <div class="footer-top-object">
+                <a href="#" id="dealer-anchor">Find a Dealer</a>
+            </div>
+            <div class="footer-top-object">
+                <a href="#">Terms and Conditions</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div style="color: white; margin-left: 10px;">
+                Follow Us
+            </div>
+            <div class="footer-bottom-object">
+                <img src="img/footer/facebook.png">
+            </div>
+            <div class="footer-bottom-object">
+                <img src="img/footer/twitter.png">
+            </div>
+            <div class="footer-bottom-object">
+                <img src="img/footer/youtube.png">
+            </div>
+            <div class="footer-bottom-object">
+                <img src="img/footer/linkedin.png">
+            </div>
+        </div>
+        <div class="copyright">
+            Legal Disclaimer <br> &copy 2022 Copyright LUXOR 
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+    <script src="script/sideNav.js"></script>
+</body>
+</html>

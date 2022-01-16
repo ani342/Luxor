@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* CSS for modals */
+
+.style-modal-body {
+    text-align: center;
+    margin: 20px;
+}
+
+.phone-number {
+    height: 35px;
+    width: 60%;
+    font-size: 14px;
+}
+
+.continue-button {
+    width: 60%;
+    height: 40px;
+    background-color: #2d3393;
+    color: white;
+    border-radius: 5px;
+}
+
+.continue-button:hover {
+    background-color: white;
+    color: #2d3393;
+    text-decoration: underline;
+}
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+}
+
+.main-object {
+    border: 1px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    padding: 60px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.main a {
+    color: #0c0f1c;
+    text-decoration: none;
+}
+
+.main-object:hover , 
+.main-object:focus {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.dealer {
+    margin: 40px 0px;
+    display: none;
+}
+
+.dealer-heading , 
+.dealer-desc {
+    text-align: center ;
+}
+
+.dealer-input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+
+.dealer-input-object select {
+    width: 250px;
+    -webkit-appearance: menulist-button;
+    margin: 15px 10px;
+}
+
+.dealer-input-submit {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.submit-button {
+    width: 150px;
+    background-color: #2d3393;
+    color: white;
+    border: 0px;
+    padding: 5px;
+}

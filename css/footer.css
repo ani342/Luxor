@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #2e2e2e;
+}
+
+.footer-top-object {
+    /* margin: 10px; */
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    display: flex;
+    background-color: #2e2e2e;
+}
+
+.footer-bottom-object {
+    margin:4 10 0 10;
+    color: white;
+    cursor: pointer;
+}
+
+.copyright {
+    color: #a9a9a9;
+    background-color: #2e2e2e;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media screen and (max-width:590px) {
+    .footer-top {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}

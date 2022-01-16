@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+.locator{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 20px;
+    justify-content: center;
+}
+
+.workshop-locator {
+    background-color: rgb(248, 249, 250);
+    padding: 20px 30px;
+    width: 445px;
+    padding-left: 60px;
+
+}
+
+.stateLocator,
+.cityLocator {
+    height: 46px;
+    -webkit-appearance: menulist-button;
+    margin-top: 20px;
+}
+
+.submit-button {
+    margin-top: 20px;
+}
+
+.book-service {
+    text-align: center;
+    padding: 50px 0px;
+    margin: auto;
+}
+
+.book-service-object > h3 {
+    color: #2d3493
+}
+
+.book-service-objects input {
+    margin: auto;
+    width: 400px;
+}
+
+.book-service-objects {
+    margin: 10px 0px;
+}
+
+
+@media screen and (max-width: 440px) {
+    .india-map {
+        display: none;
+    }
+
+    .workshop-locator {
+        width: 100%;
+        font-size: 1 vw;;
+    }
+
+    .book-service-objects input {
+        margin: auto;
+        width: 90%;
+        
+    }
+}
